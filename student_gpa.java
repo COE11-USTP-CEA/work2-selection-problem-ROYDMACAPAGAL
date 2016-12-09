@@ -29,28 +29,28 @@ class student_gpa{
 			System.out.println("    Grade is " + s.getGrade());
 		}
 		*/
-		student penya = new student();
-		penya.setName("Royd Macapagal");
-		penya.setDept("CEA");
+		student macapagal = new student();
+		macapagal.setName("Royd Macapagal");
+		macapagal.setDept("CEA");
 
 		subject oop_class = new subject();
 		oop_class.setSubjectName("Object Oriented Programming");
 		oop_class.setGrade(89.00f);
-		penya.addSubject(oop_class);
+		macapagal.addSubject(oop_class);
 
 		subject intgc_class = new subject();
-		intgc_class.setSubjectName("Integral Calculus");
+		intgc_class.setSubjectName("ENGLISH");
 		intgc_class.setGrade(88.42f);
-		penya.addSubject(intgc_class);
+		macapagal.addSubject(intgc_class);
 
 		System.out.println("Student is " + Macapagal.getName());
 		System.out.println("Dept: " + Macapagal.getDept());
 		
 		System.out.println("Subjects of Student");
 		System.out.println("-------------------");
-		List<subject> subjects_ni_penya = penya.getSubjects();
+		List<subject> subjects_ni_macapagal = macapagal.getSubjects();
 		
-		for(subject s : subjects_ni_penya){
+		for(subject s : subjects_ni_macapagal){
 			System.out.println(" -- Subject: " + s.getSubjectName());
 			System.out.println("    Grade is " + s.getGrade());
 		}
