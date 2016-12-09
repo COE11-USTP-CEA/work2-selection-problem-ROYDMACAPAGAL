@@ -8,7 +8,7 @@ class student{
 	List<subject> subjects = new ArrayList<subject>();	
 
 	public void addSubject(subject s){
-		subjects.add(s);
+           subjects.add(s);
 	}
 
 	public List<subject> getSubjects(){
